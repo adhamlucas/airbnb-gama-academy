@@ -3,6 +3,7 @@ body {
     padding: 0px;
     width: 100%;
     height: 100ev;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -10,12 +11,113 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0px 80px;
     height: 80px;
+    padding: 0px 160px;
+    font-size: 14px;
+    background-color: white;
+    position: fixed; /*To create a fixed header*/
+    top: 0;
+    width: 100%;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
 }
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo svg {
+    color: #FF385C;
+}
+
 
 .menu-header {
     display: flex;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
+    align-items: center;
     flex-direction: row;
+    height: 46px;
+    border: 1px solid transparent;
+    border-color: rgb(247, 247, 247);
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+    color: #717171;
+}
+
+.menu-header div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 16px;
+    letter-spacing: 0.03em;
+}
+
+.menu-header:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    transition: 0.6s;
+}
+
+.buttom-location {
+    text-align: center;
+    color: #222222;
+    font-weight: 600;
+}
+
+.divisor {
+    height: 100%;
+    width: 1px;
+    background-color: #EBEBEB;
+}
+
+
+.buttom-date:hover, .buttom-number-guest:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttom-search {
+    color: #FF385C;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+    border-radius: 22px;
+    height: 46px;
+}
+
+.profile-header:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    transition: 0.2s;
+}
+
+.profile-header p {
+    font-weight: 600;
+    color: #222222;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.profile-image {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+main {
+    padding-top: 80px;
 }
