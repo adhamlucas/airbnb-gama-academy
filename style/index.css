@@ -119,5 +119,47 @@ header {
 }
 
 main {
-    padding-top: 80px;
+    padding: 120px 160px 0px 160px;
 }
+
+.number_stays {
+    margin: 0;
+}
+
+main h1 {
+    margin-top: 8px;
+}
+
+.stays-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    flex: 0 1 calc(20% - 1em);
+    display: flex;
+    flex-direction: column;
+}
+
+.stay_image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.apartment-type {
+    color: #717171;
+    margin: 8px 0px 8px 0px;
+}
+
+.apartment-description {
+    margin: 0;
+}
+
+
+
+
+
