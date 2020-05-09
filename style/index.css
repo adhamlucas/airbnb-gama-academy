@@ -170,7 +170,16 @@ main h1 {
     margin: 0;
 }
 
+footer {
+    display: flex;
+    height: 80px;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dddddd;
+}
 
-
-
-
+footer a {
+    text-decoration: none;
+    padding: 0px 16px;
+}
