@@ -1,8 +1,10 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 100ev;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -119,6 +121,7 @@ header {
 }
 
 main {
+    flex: 1;
     padding: 120px 160px 0px 160px;
 }
 
@@ -171,11 +174,12 @@ main h1 {
 }
 
 footer {
+    flex-shrink: 0;
     display: flex;
-    height: 80px;
-    margin-top: 64px;
     align-items: center;
     justify-content: center;
+    height: 80px;
+    margin-top: 64px;
     border-top: 1px solid #dddddd;
 }
 
