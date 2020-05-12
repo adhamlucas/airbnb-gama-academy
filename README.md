@@ -15,7 +15,8 @@ Follow this steps:
   - `git clone https://github.com/adhamlucas/airbnb-gama-academy.git`
 - After that, go to the project folder and open the index.html file.
   
-
+## Access
+To acess the site: https://airbnb-clone-adham.netlify.app/index.html
 
 ## Api Reference
 The Gama Academy provided a simple API with some data of the stays:
