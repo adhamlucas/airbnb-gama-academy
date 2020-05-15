@@ -156,7 +156,7 @@ main h1 {
 }
 
 
-.stay-image {
+.property-image {
     min-width: 100%;
     max-width: 100%;
     max-height: 200px;
@@ -164,13 +164,44 @@ main h1 {
     object-fit: cover;
 }
 
-.apartment-type {
+.property-type {
     color: #717171;
     margin: 8px 0px 8px 0px;
 }
 
-.apartment-description {
+.property-description {
     margin: 0;
+}
+
+.pagination-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.pagination span {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0.3rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.page-changer {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pagination span.active {
+    background-color: black;
+    color: white;
+}
+
+.pagination span:hover:not(.active) {
+    background-color: #ddd;
 }
 
 footer {
